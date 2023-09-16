@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 01</title>
+</head>
+
+<body>
+
+<div id="content">
+	<h2>Datos personales</h2>
+	<form name="formulario1" method="post" action="data.php">
+		Nombre:<br>
+		<input type="text" name="nombre" id="nombre" placeholder="Nombre"> <br>
+		Apellidos:<br>
+		<input type="text" name="apellidos" id="apellidos" placeholder="Apellidos"> <br>
+		Profesión:<br>
+		<input type="text" name="profesion" id="profesion" placeholder="Profesion"> <br>
+		Sexo:<br>
+		<select id="sexo-eleccion" name="genero">
+			<option value="">Seleccion</option>
+			<option value="">Masculino</option>
+			<option value="">Femenino</option>
+		</select> <br>
+		Email:<br>
+		<input type="email" name="email" id="email" placeholder="Email"> <br>
+		Edad:<br>
+		<input type="text" name="edad" id="edad" size="2" maxlength="2" placeholder="Edad"> <br>
+		¿Tienes trabajo?:<br>
+		<input type="checkbox" id="cbox1"> Si
+		<input type="checkbox" id="cbox2"> No
+		<input type="submit" name="boton" id="boton" value="Enviar">
+		<br>
+	</form>
+</div>
+
+</body>
+
+</html>
