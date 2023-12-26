@@ -1,0 +1,50 @@
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.form-check {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-check-label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
